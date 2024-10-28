@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 241, 244);
+}
+#nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 6px;
+}
+#nav h3 a{
+    background-color: rgb(0, 4, 6);
+    color: azure;
+    font-size: 30px;
+    
+}
+#b{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(235, 243, 243);
+    padding: 55px 65px;
+}
+#b h1{
+    font-size: 130px;
+    line-height: 120px;
+    letter-spacing: -5px;
+    font-weight: 600;
+}
+#c{
+    height: 20px;
+    width: 100%;
+    background-color:  rgb(235, 243, 243);
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#c h3{
+    font-size: 33px;
+    font-weight: 500;
+
+}
+#d{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+#e{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(235, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#e h1{
+    background-color: rgb(235, 243, 243);
+    width: 50%;
+    font-size: 90px ;
+    line-height: 80px   ;
+    letter-spacing: -3px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+#e1{
+    height: 83%;
+    width: 40%;
+    background-color:  rgb(235, 243, 243);
+    border-left: 2px solid #000;
+    
+}
+#e1 h3{
+    margin-left: 65px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#e2{
+    margin-top: 74%;
+    margin-left: 60px;
+    font-size: 40px;
+}
+#f{
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(6, 108, 108);
+
+}
+#ff{
+    height: 100%;
+    width: 95%;
+    background-color:   rgb(235, 243, 243);
+    margin-left: 39px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+}
+#fa{
+    height: 83%;
+    width: 40%;
+    background-color:  rgb(235, 243, 243);
+    
+    border-right: 2px solid #000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    }
+    #fa1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #fa2{
+        font-size: 40px;
+        margin-right: 40px;
+        font-weight: 500;
+    }
+    #fb{
+        height: 83%;
+        width: 60%;
+        background-color:  rgb(235, 243, 243);
+        display: flex;
+        flex-direction: column;
+    }
+    #fb1{
+        height: 50%;
+        width: 90%;
+        background-color:  rgb(235, 243, 243);
+        margin-left: 40px;
+        border-bottom: 2px solid #000;
+        display: flex;
+
+    }
+    #fb2{
+        height: 50%;
+        width: 90%;
+        background-color:  rgb(235, 243, 243);
+        margin-left: 40px;
+        display: flex;
+    }
+    #fb1a{
+        height: 85%;
+        width: 50%;
+        background-color:  rgb(235, 243, 243);
+        margin-bottom: 30px;
+        border-right: 2px solid #000;
+    }
+    #fb1b{height: 90%;
+        width: 50%;
+        background-color:  rgb(235, 243, 243);
+        margin-bottom: 30px;
+        padding-left: 38px;
+
+    }
+    #fb2a{height: 85%;
+        width: 50%;
+        background-color:  rgb(235, 243, 243);
+        margin-top: 38px;
+        border-right: 2px solid #000;
+}
+#fb2b{
+    height: 90%;
+    width: 50%;
+    background-color:  rgb(235, 243, 243);
+    margin-top: 38px;
+    padding-left: 38px;
+    }
+    #fb h1{
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    #fb h3{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+
+#g{
+    height: 200px;
+    width: 100%;
+    background-color:  rgb(3, 19, 3);
+    
+}
+#g1 h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+#g2{
+    display: flex;
+    margin-left: 300px;
+    
+}
+#g2 h2{
+    padding: 30px 30px;
+    color: rgb(3, 19, 3);
+    background-color: rgb(3, 19, 3);
+    border-radius: 70px;
+    
+
+    font-size: 30px;
+}
+#h{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
